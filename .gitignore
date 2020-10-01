@@ -1,0 +1,8 @@
+node_modules
+build
+.idea
+deploy
+secrets.js
+_trash
+build_cache
+yarn-error.log

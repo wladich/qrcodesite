@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - "node"
+
+addons:
+  chrome: stable
+
+script:
+  - npm run type-check
+  - npm run lint:code
+  - npm run lint:style
+  - npm run test
+  - npm run build

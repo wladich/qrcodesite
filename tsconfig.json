@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "alwaysStrict": true,
+        "noImplicitAny":true,
+        "noImplicitThis": true,
+        "strict": true,
+        "baseUrl": ".",
+        "paths": {
+            "~/*": ["src/*"]
+        },
+        "typeRoots": ["node_modules/@types", "src/@types"]
+    }
+}
